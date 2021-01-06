@@ -1,0 +1,29 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve --hot"
+  },
+  "keywords": [],
+  "author": "Matheus <matheus@horadecodar.com.br> (http://www.horadecodar.com.br/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^4.5.3",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reactstrap": "^8.8.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
